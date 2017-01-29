@@ -17,7 +17,7 @@ var svg = d3.select("svg"),
 
 var format = d3.format(",d");
 
-var fill = d3.scale.Ordinal().range(['#827d92','#f6bd1f','#93eaa3','#585bdb','#949225','#533049','#113d48','#f8ef98','#c4272d','#958a95]);
+var color =  color(d3.scale.ordinal().range(["#605e61", "#f6bd1f", "#93eaa3", "#585bdb", "#949225", "#533049", "#113d48", "#f8ef98", "#c4272d", "#958a95"]).range());
 
 var pack = d3.pack()
     .size([width, width])
