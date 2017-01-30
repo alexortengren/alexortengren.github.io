@@ -5,16 +5,17 @@
 text {
   font: 14px sans-serif;
   text-anchor: middle;
-  fill: #DCF3ED;
+  fill: #FFFFFF;
 }
 
 h1 {
   font-family:sans-serif;
   text-anchor: middle;
+  text-align: center;
 }
 
 body {
-  background: #DCF3ED;
+  background: #000000;
 }
 </style>
 
@@ -31,7 +32,7 @@ var svg = d3.select("svg"),
 
 var format = d3.format(",d");
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
+var color = d3.scaleOrdinal(d3.schemeCategory20c);
 
 var pack = d3.pack()
     .size([width, width])
