@@ -10,7 +10,6 @@ text {
 
 h1 {
   font-family:sans-serif;
-  text-anchor: middle;
   text-align: center;
   fill: white;
 }
@@ -33,7 +32,7 @@ var svg = d3.select("svg"),
 
 var format = d3.format(",d");
 
-var color = d3.scaleOrdinal(d3.schemeCategory20c);
+var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 var pack = d3.pack()
     .size([width, width])
