@@ -59,7 +59,7 @@ input {
   .row, .header { clear: left; font-size: 11px; line-height: 24px; height: 24px; }
   .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
   .header { font-weight: bold; }
-  .cell { float: left; overflow: hidden; white-space: nowrap; width: 160px; height: 18px; }
+  .cell { float: left; overflow: hidden; white-space: nowrap; width:80px; height: 18px; }
   .col-0 { width: 80px;}
 
   
