@@ -65,7 +65,7 @@ input {
   
 /* parcoords styles */
 .parcoords > svg, .parcoords > canvas { 
-  font: 11px "Source Code Pro", Consolas, monaco, monospace;
+  font: 11px font-family: 'Abel', sans-serif;
   position: absolute;
 }
 .parcoords > canvas {
