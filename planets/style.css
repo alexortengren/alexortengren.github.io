@@ -36,7 +36,7 @@ pre {
 }
 h1 small {
   font-weight: normal;
-  font-size: 0.5em;
+  font-size:0.3em;
 }
 h3 {
   margin-top: 40px;
@@ -56,7 +56,7 @@ input {
 
 
 /* data table styles */
-  #grid { height: 240px; }
+  #grid { height:500px; }
   .row, .header { clear: left; font-size: 11px; line-height: 24px; height: 24px; }
   .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
   .header { font-weight: bold; }
