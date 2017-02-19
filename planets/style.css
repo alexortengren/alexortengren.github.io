@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+@import url('https://fonts.googleapis.com/css?family=Abel');
 body {
   font-size: 14px;
-  font-family: "Source Code Pro", Consolas, monaco, monospace;
+  font-family: 'Abel', sans-serif;
   margin: 20px auto 20px;
   width: 960px;
   line-height: 1.45em;
@@ -28,7 +29,7 @@ p {
 }
 pre {
   color: #444;
-  font-family: Ubuntu Mono, Monaco, monospace;
+  font-family: 'Abel', sans-serif;
   padding: 4px 8px;
   background: #f2f2f2;
   border: 1px solid #ccc;
