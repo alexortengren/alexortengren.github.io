@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Abel|Archivo+Narrow" rel="stylesheet">
+<style>
+text {
+  font-family: 'Abel', sans-serif;
+  text-anchor: middle;
+  fill: #000000;
+  font-size: 13px;
+}
+
+h1 {
+  font-family: 'Abel', sans-serif;
+  fill: #000000;
+  font-size: 50px;
+  
+}
+h2 {
+  font-family: 'Abel', sans-serif;
+  fill: #000000;
+  font-size: 30px;
+  }
+
+p {
+  font-family: 'Abel', sans-serif;
+  fill: #000000;
+  font-size: 16px;
+}
+
+body {
+  background: #e6e6e6;
+}
+
+img {
+  width:40%;
+  height:40%;
+  margin-right:10px;
+  margin-bottom: 15px;
+  display:block;
+}
+</style>
+
+<body>
+<h1>How does importance of religion impact values in life?</h1>
+<h2 >IVIS17 Project 2 - Visualizing data from World Values Survey</h2>
+<br>
+
+<h2>Analytic trail 1 - Using WVS-tools</h2>
+<p>
+30 countries spread over the planet were selected in order to get a global perspective of the research question stated in the header.
+</p> 
+<img src="Choose 30 countries.png" align="middle" >
+
+<p>
+Data was collected from the last 20 years, from 1995 to 2014.
+</p>
+<img src="Select waves.jpg" align="middle">
+
+<p>
+The variable "Important in life: Religion" was selected first as a reference which the other 7 variables would be compared with.
+</p>
+<img src="Choose variable.jpg" align="middle">
+
+<p>
+Religion is in general important to people living in Algeria, Ghana, Tunisia and Egypt. People living in China, Japan, Netherlands and Sweden don't believe it's that important.
+</p>
+<img src="Religion bars.png" align="middle">
+
+<p>
+Correlations between Religion and the other 7 variables; Abortion, Homosexuality, Suicide, Euthanasia, Divorce, Satisfaction with life and Freedom of chioce was analyzed by looking at each bar chart. 
+</p> 
+<img src="Abortion bars.png">
+
+<p>
+Comparisons between the 4 waves (20 years) was made to analyze changes over time by using the Time series-tool.
+</p>
+
+<h2>Analytic trail 2 - Using D3</h2>
+
+<p>To get a better understanding of the correlations between importance of religion and the other 7 variables, a visualization using parallel coordinates was constructed with D3.<br>
+</p>
+
+<p>The MEAN values for each variable and wave was collected and used as values for the variables.
+</p>
+<img src="variables in excel.png">
+
+
+<h2>Learnings</h2>
+<p>By using the available data and the visualization tools at the WVS webpage, only an indication of how peoples religious believes impact their satisfaction of life and their values could be seen. <br> Correlations occured among most of the countries (with some exceptions) with the highest or lowest value of religous importance and the "Justifiable-variables". The majority of the people living<br> in countries with low religious importance have a in general a positive attitude towards for example Abortion. 
+<br>
+
+</body>
+
+<svg width="960" height="900"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+
+</script>
